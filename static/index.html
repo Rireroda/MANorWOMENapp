@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MAN OR WOMEN ?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="../static/style.css">
+  </head>
+
+<header>
+  <div class="container">
+    <div class="header-left">
+      MAN OR WOMEN ?
+    </div>
+  </div>
+</header>
+
+<body>
+  <div class="heading">
+      <h1>Please uproad your photo :)</h1>
+  </div>
+  <form method = post enctype = multipart/form-data>
+    <p><input type=file name=file>
+      <input type=submit value=Upload>
+  </form>
+</body>
+</html>

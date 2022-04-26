@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <link rel=stylesheet href="../static/style.css">
+    <!--<link rel=stylesheet href="../static/style.css">-->
+  </head>
+<body>
+  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+  <p><h1>RESULT</h1></p>
+    <h2>{{resultmsg}}</h2>
+    <img src="{{filepath}}">
+</body>
+</html>
